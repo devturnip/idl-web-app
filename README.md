@@ -1,4 +1,4 @@
-##About
+## About
 Written in ReactJS.
 
-Hosted on [https://www.indolapharmalink.com/]
+Website live [here](https://www.indolapharmalink.com/).
