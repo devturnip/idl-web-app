@@ -5,16 +5,16 @@ import {Col} from "react-bootstrap";
 import "../styles/Products.css";
 
 //images
-import aptis from "../resources/product/aptis.png";
-import biovac from "../resources/product/biovac.png";
-import bladecassette from "../resources/product/bladecassette.png";
+import aptis from "../resources/product/aptis.jpg";
+import biovac from "../resources/product/biovac.jpg";
+import bladecassette from "../resources/product/bladecassette.jpg";
 import bladeflask from "../resources/product/bladeflask.jpg";
-import bladeneedlesystem from "../resources/product/bladeneedlesystem.png";
+import bladeneedlesystem from "../resources/product/bladeneedlesystem.jpg";
 import flagship_surgical_mat from "../resources/product/flagship_surgical_mat.jpg";
-import nouvag from "../resources/product/nouvag.png";
-import palacos from "../resources/product/palacos.png";
-import qlicksmart from "../resources/product/qlicksmart.png"
-import snapit from "../resources/product/snapit.png"
+import nouvag from "../resources/product/nouvag.jpg";
+import palacos from "../resources/product/palacos.jpg";
+import qlicksmart from "../resources/product/qlicksmart.jpg"
+import snapit from "../resources/product/snapit.jpg"
 import {Code} from "react-feather";
 
 const Products = () => {
