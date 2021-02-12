@@ -19,5 +19,8 @@
     width: auto;
     float: right;
     border: #98FB98 solid 2px;
+}
+
+.image-container {
     padding-right: 20px;
 }
