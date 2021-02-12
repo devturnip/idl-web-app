@@ -35,7 +35,9 @@ const About = () => {
                     Our aim is placing quality products with quality services globally.
                     </p>
             </div>
-            <img id="personal_1" src={personal_1} alt="personal"/>
+            <div className="image-container">
+                <img id="personal_1" src={personal_1} alt="personal"/>
+            </div>
             <p id='padding'><br/></p>
         </div>
     )
