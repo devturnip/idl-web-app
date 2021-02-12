@@ -1,0 +1,27 @@
+.activities-container {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.activities-text {
+    font-family: Helvetica;
+    margin: auto;
+    max-width: 700px;
+    border: transparent;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.activities-photos {
+    padding-right: 20px;
+}
+
+#give_1 {
+    margin: auto;
+    height: 700px;
+    width: auto;
+    float: right;
+    border: #98FB98 solid 2px;
+}
+

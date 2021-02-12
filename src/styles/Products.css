@@ -1,0 +1,30 @@
+.product-container {
+    margin: auto;
+    max-width: 1400px;
+    border: transparent;
+    padding: 10px;
+}
+
+.product_img {
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 25px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.product-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    background-color: whitesmoke;
+}
+
+#padding {
+    padding-bottom: 120px;
+}

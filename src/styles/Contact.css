@@ -1,0 +1,17 @@
+.contact {
+    margin: auto;
+    padding: 10px 60px 120px;
+    max-width: 1000px;
+    border: transparent;
+}
+
+.map {
+    padding-top: 10px;
+    font-family: Helvetica;
+    padding-bottom: 30px;
+}
+
+.contact-text {
+    font-family: Helvetica;
+    padding-bottom: 100px;
+}
