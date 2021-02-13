@@ -24,9 +24,7 @@ const Contact = () => {
                     <br/>
                     Email 1 : indola@singnet.com.sg
                     <br/>
-                    Email 2 : indola@gmail.com.sg
-                    <br/>
-                    Susanty HP : +65 90478019
+                    Email 2 : indolaoffice@gmail.com
                     <br/>
                 </p>
             </div>
