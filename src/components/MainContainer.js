@@ -30,7 +30,7 @@ function MainContainer() {
                     <Route path ="/business"><Business/></Route>
                     <Route path ="/contact"><Contact/></Route>
                     <Route path ="/activities"><Activities/></Route>
-                    <Route path ="*"><NotMatch/></Route>
+                    <Route component={NotMatch}></Route>
                 </Switch>
                 <Footer/>
             </Router>
