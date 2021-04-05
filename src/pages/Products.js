@@ -10,12 +10,13 @@ import biovac from "../resources/product/biovac.jpg";
 import bladecassette from "../resources/product/bladecassette.jpg";
 import bladeflask from "../resources/product/bladeflask.jpg";
 import bladeneedlesystem from "../resources/product/bladeneedlesystem.jpg";
+import copalgc from "../resources/product/copalgc.jpeg";
+import copalgv from "../resources/product/copalgv.jpeg";
 import flagship_surgical_mat from "../resources/product/flagship_surgical_mat.jpg";
 import nouvag from "../resources/product/nouvag.jpg";
 import palacos from "../resources/product/palacos.jpg";
 import qlicksmart from "../resources/product/qlicksmart.jpg"
 import snapit from "../resources/product/snapit.jpg"
-import {Code} from "react-feather";
 
 const Products = () => {
     return (
@@ -24,13 +25,33 @@ const Products = () => {
                 <Row>
                     <Col>
                         <div class="container">
-                            <p className="product-title">Palacos™ Bone Cement</p>
+                            <p className="product-title">Palacos® Bone Cement</p>
                             <a href="https://www.heraeus.com/en/hme/products_solutions_heraeus_medical/arthrosis/palacos_bone_cements.html"
                                target="_blank" rel="noopener noreferrer">
                                 <img className="product_img" src={palacos} alt="palacos"/>
                             </a>
                         </div>
                     </Col>
+                    <Col>
+                        <div class="container">
+                            <p className="product-title">COPAL® G+C Bone Cement</p>
+                            <a href="https://www.heraeus.com/en/hme/products_solutions_heraeus_medical/overview_products_indication/copal_gc_antibiotics.html"
+                               target="_blank" rel="noopener noreferrer">
+                                <img className="product_img" src={copalgc} alt="copalgc"/>
+                            </a>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div class="container">
+                            <p className="product-title">COPAL® G+V Bone Cement</p>
+                            <a href="https://www.heraeus.com/en/hme/products_solutions_heraeus_medical/septicrevision/copal_gv_antibiotics.html"
+                               target="_blank" rel="noopener noreferrer">
+                                <img className="product_img" src={copalgv} alt="copalgv"/>
+                            </a>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
                     <Col>
                         <div className="container">
                             <p className="product-title">Biovac™ Wound Drainage</p>
@@ -49,8 +70,6 @@ const Products = () => {
                             </a>
                         </div>
                     </Col>
-                </Row>
-                <Row>
                     <Col>
                         <div className="container">
                             <p className="product-title">HighSurg30</p>
@@ -60,6 +79,8 @@ const Products = () => {
                             </a>
                         </div>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
                         <div className="container">
                             <p className="product-title">The Surgical Mat™</p>
@@ -78,8 +99,6 @@ const Products = () => {
                             </a>
                         </div>
                     </Col>
-                </Row>
-                <Row>
                     <Col>
                         <div className="container">
                             <p className="product-title">CheckCLIP</p>
@@ -89,6 +108,8 @@ const Products = () => {
                             </a>
                         </div>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
                         <div className="container">
                             <p className="product-title">BladeCASSETTE</p>
@@ -107,8 +128,6 @@ const Products = () => {
                             </a>
                         </div>
                     </Col>
-                </Row>
-                <Row>
                     <Col>
                         <div className="container">
                             <p className="product-title">SnapIT</p>
@@ -118,8 +137,6 @@ const Products = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col></Col>
-                    <Col></Col>
                 </Row>
             </Container>
             <p id='padding'><br/></p>
